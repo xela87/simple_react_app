@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/xela87/simple_react_app/static/css/main.49d8f201.chunk.css",
-    "main.js": "/xela87/simple_react_app/static/js/main.02df3198.chunk.js",
-    "main.js.map": "/xela87/simple_react_app/static/js/main.02df3198.chunk.js.map",
-    "runtime-main.js": "/xela87/simple_react_app/static/js/runtime-main.fe8bbf82.js",
-    "runtime-main.js.map": "/xela87/simple_react_app/static/js/runtime-main.fe8bbf82.js.map",
-    "static/js/2.cff0cbe0.chunk.js": "/xela87/simple_react_app/static/js/2.cff0cbe0.chunk.js",
-    "static/js/2.cff0cbe0.chunk.js.map": "/xela87/simple_react_app/static/js/2.cff0cbe0.chunk.js.map",
-    "index.html": "/xela87/simple_react_app/index.html",
-    "static/css/main.49d8f201.chunk.css.map": "/xela87/simple_react_app/static/css/main.49d8f201.chunk.css.map",
-    "static/js/2.cff0cbe0.chunk.js.LICENSE.txt": "/xela87/simple_react_app/static/js/2.cff0cbe0.chunk.js.LICENSE.txt"
+    "main.css": "/simple_react_app/static/css/main.49d8f201.chunk.css",
+    "main.js": "/simple_react_app/static/js/main.02df3198.chunk.js",
+    "main.js.map": "/simple_react_app/static/js/main.02df3198.chunk.js.map",
+    "runtime-main.js": "/simple_react_app/static/js/runtime-main.b749bfb3.js",
+    "runtime-main.js.map": "/simple_react_app/static/js/runtime-main.b749bfb3.js.map",
+    "static/js/2.cff0cbe0.chunk.js": "/simple_react_app/static/js/2.cff0cbe0.chunk.js",
+    "static/js/2.cff0cbe0.chunk.js.map": "/simple_react_app/static/js/2.cff0cbe0.chunk.js.map",
+    "index.html": "/simple_react_app/index.html",
+    "static/css/main.49d8f201.chunk.css.map": "/simple_react_app/static/css/main.49d8f201.chunk.css.map",
+    "static/js/2.cff0cbe0.chunk.js.LICENSE.txt": "/simple_react_app/static/js/2.cff0cbe0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe8bbf82.js",
+    "static/js/runtime-main.b749bfb3.js",
     "static/js/2.cff0cbe0.chunk.js",
     "static/css/main.49d8f201.chunk.css",
     "static/js/main.02df3198.chunk.js"
