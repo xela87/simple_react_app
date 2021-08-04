@@ -1,19 +1,15 @@
-import {createStore} from 'redux';
+import {createStore, combineReducers, applyMiddleware} from 'redux';
+import {cashReducer} from './cashReducer';
+import {customerReducer} from './customerReducer';
+import {composeWithDevTools} from 'redux-devtools-extension';
+import thunk from 'redux-thunk';
 
-export type RootState = ReturnType<typeof reducer>
+export type RootState = ReturnType<typeof rootReducer>
 
-const initialState = {
-  cash: 50,
-}
+const rootReducer = combineReducers({
+  cash: cashReducer,
+  customers: customerReducer
+})
 
-const reducer = (state = initialState, action: {type: string, payload: number}) => {
-  switch (action.type){
-    case 'ADD_CASH':
-      return {...state, cash: state.cash + action.payload}
-    case 'GET_CASH':
-      return {...state, cash: state.cash - action.payload}
-    default: return state
-  }
-}
+export const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)))
 
-export const store = createStore(reducer)
